@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OLX Clone</title>
+    <link rel="icon" type="image/x-icon" href="./assets/OLX-Symbol.png">
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <svg width="48px" height="48px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd"><path class="rui-w4DG7" d="M661.333 256v512h-128v-512h128zM277.333 298.667c117.824 0 213.333 95.531 213.333 213.333s-95.509 213.333-213.333 213.333c-117.824 0-213.333-95.531-213.333-213.333s95.509-213.333 213.333-213.333zM794.496 384l37.504 37.504 37.504-37.504h90.496v90.496l-37.504 37.504 37.504 37.504v90.496h-90.496l-37.504-37.504-37.504 37.504h-90.496v-90.496l37.504-37.504-37.504-37.504v-90.496h90.496zM277.333 426.667c-47.061 0-85.333 38.293-85.333 85.333s38.272 85.333 85.333 85.333c47.061 0 85.333-38.293 85.333-85.333s-38.272-85.333-85.333-85.333z"></path></svg>
+        </div>
+        <div class="country-selector">
+            <button><i class="fa-solid fa-magnifying-glass"></i></button>
+            <select>
+                <option value="India">India</option>
+                <option value="India">My Location</option>
+            </select>
+            
+        </div>
+        <div class="search-bar">
+            <input type="text" placeholder="Search for products, services, etc.">
+                <button><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+        
+        <div class="lang-selector">
+            <select>
+                <option value="India">English</option>
+                <option value="India">Hindi</option>
+            </select>
+            
+        </div>
+
+        <nav class="nav-links">
+            <a href="#">Login</a>
+            <a href="#"><button>+Sell</button></a>
+            
+        </nav>
+    </header>
+
+    <main>
+        <section class="categories">
+            <div class="categories-header">
+                <h4>ALL CATEGORIES</h4>
+                <select class="down-arrow" id=""></select>
+            </div>
+            <div class="category-list">
+                <div class="category-item">Cars</div>
+                <div class="category-item">Mobile Phones</div>
+                <div class="category-item">Furniture</div>
+                <div class="category-item">Motorcycles</div>
+                <div class="category-item">Scooters</div>
+                <div class="category-item">For Sale: Houses & Apartments</div>
+                <div class="category-item">Commercial & Other Vehicles</div>
+                <div class="category-item">For Rent: Houses & Apartments</div>
+            </div>
+        </section>
+
+        <section class="flex-section">
+            <h4 class="section-title">Fresh Recommendation</h4>
+            <div class="flex-item">
+                <img src="./assets/mahindra.jfif" alt="p1">
+                <h3>Mahindra XUV300 W8 option Diesel...</h3>
+                <h3>Rs.785000</h3>
+            </div>
+            <div class="flex-item">
+                <img src="./assets/bed.jfif" alt="bed">
+                <h3>Sleepwell Bed</h3>
+                <h3>Rs.105000</h3>
+            </div>
+            <div class="flex-item">
+                <img src="./assets/crocs.jfif" alt="crocs">
+                <h3>Crocs Flip Flop All Weather...</h3>
+                <h3>Rs.1000</h3>
+            </div>
+            <div class="flex-item">
+                <img src="./assets/iphone.jfif" alt="iphone">
+                <h3>Apple iPhone 12 Mini...</h3>
+                <h3>Rs.385000</h3>
+            </div>
+            <div class="flex-item">
+                <img src="./assets/land.jfif" alt="land">
+                <h3>Land for Sale...</h3>
+                <h3>Rs.1505000</h3>
+            </div>
+            <div class="flex-item">
+                <img src="./assets/phone.jfif" alt="phone">
+                <h3>Apple iPhone 13 Pro 5G...</h3>
+                <h3>Rs.785000</h3>
+            </div>
+            <div class="flex-item">
+                <img src="./assets/prod-1.jfif" alt="car">
+                <h3>Maruti Suzuki Alto Diesel...</h3>
+                <h3>Rs.385000</h3>
+            </div>
+            <div class="flex-item">
+                <img src="./assets/projector.jfif" alt="screen">
+                <h3>Acer 4K Projector Screen...</h3>
+                <h3>Rs.85000</h3>
+            </div>
+            <div class="flex-item">
+                <img src="./assets/smartwatch.jfif" alt="sw">
+                <h3>Smart Watch Premium Collection from Boat...</h3>
+                <h3>Rs.5000</h3>
+            </div>
+            <div class="flex-item">
+                <img src="./assets/tv.jfif" alt="tv">
+                <h3>4K LED TV Projector...</h3>
+                <h3>Rs.5000</h3>
+            </div>
+            <div class="flex-item">
+                <img src="./assets/mahindra.jfif" alt="car">
+                <h3>Mahindra XUV300 W8 option Diesel...</h3>
+                <h3>Rs.785000</h3>
+            </div>
+            <div class="flex-item">
+                <img src="./assets/sofa.jfif" alt="sofa">
+                <h3>Luxury Sofa Factory...</h3>
+                <h3>Rs.18000</h3>
+            </div>
+            <div class="load-more-container">
+                <button class="load-more">Load More</button>
+            </div>
+        </section>
+        
+        
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-container">
+            <div class="footer-top">
+                <div class="footer-column">
+                    <h4>POPULAR LOCATIONS</h4>
+                    <ul>
+                        <li><a href="#">Kolkata</a></li>
+                        <li><a href="#">Mumbai</a></li>
+                        <li><a href="#">Chennai</a></li>
+                        <li><a href="#">Pune</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>TRENDING LOCATIONS</h4>
+                    <ul>
+                        <li><a href="#">Bhubaneshwar</a></li>
+                        <li><a href="#">Hyderabad</a></li>
+                        <li><a href="#">Chandigarh</a></li>
+                        <li><a href="#">Nashik</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>ABOUT US</h4>
+                    <ul>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Tech@OLX</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>OLX</h4>
+                    <ul>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Help</a></li>
+                        <li><a href="#">Sitemap</a></li>
+                        <li><a href="#">Legal & Privacy Information</a></li>
+                        <li><a href="#">Vulnerability Disclosure Program</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>FOLLOW US</h4>
+                    <div class="social-icons">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-regular fa-circle-play"></i></a>
+                    </div>
+                    <div class="app-links">
+                        <a href="#"><img src="./assets/playstore.webp" alt="Google Play"></a>
+                        <a href="#"><img src="assets/appstore.webp" alt="App Store"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="company-logos">
+                    <img src="./assets/cartrade_tech.svg" alt="CarTrade Tech">
+                    <img src="./assets/olx.svg" alt="OLX">
+                    <img src="./assets/carwale.svg" alt="CarWale">
+                    <img src="./assets/bikewale.svg" alt="BikeWale">
+                    <img src="./assets/mobility.svg" alt="Mobility Outlook">
+                </div>
+                <div class="footer-bottom-text">
+                    <p>All rights reserved © 2006-2024 OLX</p>
+                </div>
+            </div>
+        </div>
+    </footer>    
+</body>
+</html>
+
